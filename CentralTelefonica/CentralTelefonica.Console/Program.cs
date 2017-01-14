@@ -28,23 +28,23 @@ namespace CentralTelefonica.Console
             central.Agregar(fono5);
 
             central.IniciarLlamada(fono1);
-            Thread.Sleep(5000);
+            Thread.Sleep(5500);
             central.FinalizarLlamada(fono1);
 
             central.IniciarLlamada(fono3);
-            Thread.Sleep(2000);
+            Thread.Sleep(2300);
             central.FinalizarLlamada(fono3);
 
             central.IniciarLlamada(fono4);
-            Thread.Sleep(9000);
+            Thread.Sleep(9700);
             central.FinalizarLlamada(fono4);
 
             central.IniciarLlamada(fono5);
-            Thread.Sleep(4000);
+            Thread.Sleep(4300);
             central.FinalizarLlamada(fono5);
 
             central.IniciarLlamada(fono2);
-            Thread.Sleep(3000);
+            Thread.Sleep(3200);
             central.FinalizarLlamada(fono2);
     
 
