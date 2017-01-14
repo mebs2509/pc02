@@ -1,0 +1,8 @@
+c:\users\clase\documents\visual studio 2013\Projects\CentralTelefonica\CentralTelefonica.Console\bin\Debug\CentralTelefonica.Console.exe.config
+c:\users\clase\documents\visual studio 2013\Projects\CentralTelefonica\CentralTelefonica.Console\bin\Debug\CentralTelefonica.Console.exe
+c:\users\clase\documents\visual studio 2013\Projects\CentralTelefonica\CentralTelefonica.Console\bin\Debug\CentralTelefonica.Console.pdb
+c:\users\clase\documents\visual studio 2013\Projects\CentralTelefonica\CentralTelefonica.Console\bin\Debug\CentralTelefonica.Entities.dll
+c:\users\clase\documents\visual studio 2013\Projects\CentralTelefonica\CentralTelefonica.Console\bin\Debug\CentralTelefonica.Entities.pdb
+c:\users\clase\documents\visual studio 2013\Projects\CentralTelefonica\CentralTelefonica.Console\obj\Debug\CentralTelefonica.Console.csprojResolveAssemblyReference.cache
+c:\users\clase\documents\visual studio 2013\Projects\CentralTelefonica\CentralTelefonica.Console\obj\Debug\CentralTelefonica.Console.exe
+c:\users\clase\documents\visual studio 2013\Projects\CentralTelefonica\CentralTelefonica.Console\obj\Debug\CentralTelefonica.Console.pdb
