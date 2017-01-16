@@ -14,7 +14,7 @@ namespace CentralTelefonica.Context.EntitiesConfiguration
             //Configuro la llave primaria de la tabla Time
             HasKey(a => a.TimeId);
 
-
+            
         }
     }
 }

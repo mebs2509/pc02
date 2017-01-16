@@ -16,6 +16,10 @@ namespace CentralTelefonica.Context.EntitiesConfiguration
 
             //Configuro la longitud maxima del campo GetTime
             Property(a => a.GetTime());
+
+            HasRequired(e => e.Llamada)
+                .WithMany(e1 => e1.Reloj1)
+                .HasForeignKey(e2 => e2.LlamadaId);
         }
     }
 }

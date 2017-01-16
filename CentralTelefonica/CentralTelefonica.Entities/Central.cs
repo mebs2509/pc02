@@ -8,9 +8,9 @@ namespace CentralTelefonica.Entities
 {
     public class Central
     {
-        private int _CentralId;
-        List<Telefono> _Telefonos;
-        List<LLamada> _Llamadas;
+        public int CentralId { get; set; }
+        public List<Telefono> _Telefonos { get; set; }
+        public List<LLamada> _Llamadas;
 
         public Central()
         {
@@ -75,6 +75,5 @@ namespace CentralTelefonica.Entities
 
         }
 
-        public int CentralId { get { return _CentralId; } }
     }
 }

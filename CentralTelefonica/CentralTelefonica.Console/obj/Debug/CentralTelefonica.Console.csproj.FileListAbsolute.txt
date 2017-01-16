@@ -46,3 +46,6 @@ C:\Users\USUARIO\Desktop\PC_02\CentralTelefonica\CentralTelefonica.Console\bin\D
 C:\Users\USUARIO\Desktop\PC_02\CentralTelefonica\CentralTelefonica.Console\obj\Debug\CentralTelefonica.Console.csprojResolveAssemblyReference.cache
 C:\Users\USUARIO\Desktop\PC_02\CentralTelefonica\CentralTelefonica.Console\obj\Debug\CentralTelefonica.Console.exe
 C:\Users\USUARIO\Desktop\PC_02\CentralTelefonica\CentralTelefonica.Console\obj\Debug\CentralTelefonica.Console.pdb
+D:\Programacion 1\pc02\CentralTelefonica\CentralTelefonica.Console\bin\Debug\CentralTelefonica.Console.exe.config
+D:\Programacion 1\pc02\CentralTelefonica\CentralTelefonica.Console\obj\Debug\CentralTelefonica.Console.exe
+D:\Programacion 1\pc02\CentralTelefonica\CentralTelefonica.Console\obj\Debug\CentralTelefonica.Console.pdb

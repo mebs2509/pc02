@@ -17,15 +17,12 @@ namespace CentralTelefonica.Context.EntitiesConfiguration
             Property(a => a.Destino).HasMaxLength(250);
 
 
-            ////Configuro relacion Llamada - Telefono
-            //HasRequired(b => b.Telefono)
-            //    .WithMany(bl => bl.LLamada)
-            //    .HasForeignKey(b => b.TelefonoId);
+            ////Configuro relacion Llamada - Central
+            HasRequired(b => b.Central)
+                .WithMany(bl => bl._Llamadas)
+                .HasForeignKey(b => b.CentralId);
 
-            ////Configuro relacion Llamada - Reeloj
-            //HasRequired(b => b.Telefono)
-            //    .WithMany(bl => bl.Reloj)
-            //    .HasForeignKey(b => b.TelefonoId);
+
         }
     }
 }
