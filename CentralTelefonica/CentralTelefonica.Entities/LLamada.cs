@@ -8,8 +8,14 @@ namespace CentralTelefonica.Entities
 {
     public class LLamada
     {
+        public int _LlamadaId;
         private Telefono _Telefono;
+        public int TelefonoId { get; set; }
         private Reloj _Reloj;
+        public int RelojId { get; set; }
+        private String _Origen;
+        private String _Destino;
+     
 
         public LLamada(String numero)
         {
@@ -23,9 +29,13 @@ namespace CentralTelefonica.Entities
 
         public Telefono Telefono { get { return _Telefono; } }
         public Reloj Reloj { get { return _Reloj; } }
+        public int LlamadaId { get { return _LlamadaId; } }
+        public String Origen { get { return _Origen; } }
+        public String Destino { get { return _Destino; } }
 
         public double Tarifa()
         {
+          
             return _Telefono.Tarifa(DateTime.Now.Hour);
         }
     }

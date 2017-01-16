@@ -8,12 +8,15 @@ namespace CentralTelefonica.Entities
 {
     public class Time
     {
+        private int _TimeId;
         DateTime _HoraActual;
 
         public Time()
         {
             _HoraActual = DateTime.Now;
         }
+
+        public int TimeId { get { return _TimeId; } }
 
         public void GetTime(out int horas, out int minutos, out int segundos)
         {

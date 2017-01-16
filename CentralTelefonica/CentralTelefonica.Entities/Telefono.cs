@@ -8,8 +8,14 @@ namespace CentralTelefonica.Entities
 {
     public interface Telefono
     {
+        //int TelefonoId { set;  get; }
+
         String Numero { get; }
 
         double Tarifa(int hora);
+
+      
+
+
     }
 }

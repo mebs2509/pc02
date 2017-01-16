@@ -8,14 +8,17 @@ namespace CentralTelefonica.Entities
 {
     public class Celular : Telefono
     {
+        private int _CelularId;
         private String _Numero;
 
         public Celular(String numero)
         {
             _Numero = numero;
+           
         }
 
         public String Numero { get { return _Numero; } }
+        public int CelularId { get { return _CelularId; } }
 
         public double Tarifa (int hora) 
         {
