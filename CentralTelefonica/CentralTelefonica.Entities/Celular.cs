@@ -11,6 +11,17 @@ namespace CentralTelefonica.Entities
         private int _CelularId;
         private String _Numero;
 
+        public int TelefonoId { get; set; }
+
+        public int CentralId { get; set; }
+
+        public Central Central { get; set; }
+
+        public LLamada Llamada { get; set; }
+
+        public int _LlamadaId { get; set; }
+
+
         public Celular(String numero)
         {
             _Numero = numero;

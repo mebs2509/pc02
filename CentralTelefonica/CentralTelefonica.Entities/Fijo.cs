@@ -8,7 +8,17 @@ namespace CentralTelefonica.Entities
 {
     public class Fijo : Telefono
     {
-        
+
+        public int TelefonoId { get; set; }
+
+        public int CentralId { get; set; }
+
+        public Central Central { get; set; }
+
+        public LLamada Llamada { get; set; }
+
+        public int _LlamadaId { get; set; }
+
         private int _FijoId;
         private String _Numero;
 
